@@ -1,0 +1,41 @@
+# --- Dados ---
+# Ignora a pasta com os CSVs brutos (são muito pesados para o Git)
+data/
+DA_emendas/data/
+*.csv
+*.zip
+
+# Ignora o banco de dados DuckDB (melhor o usuário gerar o seu via script)
+# Se você quiser que o banco já vá pronto, comente a linha abaixo com #
+*.db
+*.db.wal
+
+# --- Python & Ambientes ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# --- IDEs ---
+.vscode/
+.idea/
+.neovim/
+*.swp
+*~
+
+# --- Streamlit ---
+.streamlit/config.toml
